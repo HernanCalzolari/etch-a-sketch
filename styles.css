@@ -1,0 +1,12 @@
+    /* Style for the grid container */
+    .grid-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+  
+      /* Style for each grid item */
+      .grid-item {
+        flex: 0 0 calc(100% / var(--numColumns));
+        height: 30px;
+        background-color: #eee;
+      }
