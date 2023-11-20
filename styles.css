@@ -7,6 +7,9 @@
       /* Style for each grid item */
       .grid-item {
         flex: 0 0 calc(100% / var(--numColumns));
-        height: 30px;
+        height: 40px;
         background-color: #eee;
       }
+      
+      .grid-item-hover {background-color: black;}
+      
